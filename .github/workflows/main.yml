@@ -5,6 +5,7 @@ jobs:
     runs-on: self-hosted
     
     steps:
+    - uses: actions
     - name: Run a one-line script
       run: echo Hello world !!!!!!!!
     - name: Run a multi-line script
